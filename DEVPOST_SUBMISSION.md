@@ -14,10 +14,10 @@
   - ✅ **AWS Builder Mini-Challenge** ($10K in AWS credits): Amazon Bedrock Claude 3.5 Sonnet multimodal vision integration (`@aws-sdk/client-bedrock-runtime`).
   - ✅ **Open Source Mini-Challenge**: Permissive MIT License included in root repository.
   - ✅ **Friction Log Bonus**: Up to **+10% judging bonus** with 3 in-depth entries in `FRICTION_LOG.md`.
-- **License**: MIT
-- **GitHub Repository**: *(Your GitHub repository URL after pushing)*
+- **GitHub Repository**: https://github.com/CreatorguyS/frontdoor-concierge
+- **Demo Video URL (Embedded & Direct Link)**: https://github.com/CreatorguyS/frontdoor-concierge#--live-demonstration-full-system-walkthrough
+  *(Or direct raw video link: https://raw.githubusercontent.com/CreatorguyS/frontdoor-concierge/main/demo.webp)*
 
----
 
 ## 2. Devpost Story / Project Description
 
