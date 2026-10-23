@@ -22,9 +22,13 @@
 ## 2. Devpost Story / Project Description
 
 ### 💡 Inspiration
-Over $12 billion in packages are stolen off American porches every year ("porch piracy"). Traditional smart doorbells are completely passive: they buzz your phone *after* a courier has already left your package in the rain or an opportunist has stolen it. Furthermore, delivery couriers cannot access secure gates or parcel boxes, and homeowners cannot converse in real time with every visitor. 
+We’ve all had that sinking feeling: you’re stuck at work or away from home, your phone buzzes with a generic doorbell notification, and you open the video feed just in time to watch a courier balance your fragile delivery on a wet porch railing—or worse, an opportunistic porch pirate walking away with it.
 
-We asked: *What if your front door wasn't just a video camera, but an autonomous, courteous AI concierge powered by Amazon's ecosystem that can see, reason, converse, and grant physical access?*
+Traditional smart doorbells are completely passive. They act as mere witnesses to theft or bad weather, alerting you *after* the damage is already done. Shouting through laggy two-way phone audio rarely helps, and couriers on tight schedules don't have time to wait for you to pick up.
+
+We built **FrontDoor Concierge** to answer a simple question: *What if your front door had an attentive, courteous digital doorman?*
+
+Instead of an annoying buzzer, we envisioned an autonomous guardian that can see, think, and talk in real time—recognizing couriers by uniform, politely guiding them to a secure parcel box with a dynamic one-time PIN, and defending your home against porch piracy before you even unlock your phone.
 
 ### 🚀 What It Does
 **FrontDoor Concierge** transforms smart doorbells from passive notification buzzers into an intelligent front-porch concierge and security guardian:
