@@ -1,0 +1,103 @@
+.timeline { display: flex; flex-direction: column; overflow: hidden; max-height: 600px; }
+
+.timeline__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--glass-border);
+  flex-shrink: 0;
+}
+
+.timeline__body {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.timeline__empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 48px 20px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+.timeline__empty-icon { font-size: 2.5rem; opacity: 0.3; }
+
+/* Timeline Card */
+.timeline-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--glass-border);
+  cursor: pointer;
+  transition: background var(--t-fast);
+  position: relative;
+  overflow: hidden;
+}
+.timeline-card:hover { background: rgba(255,255,255,0.03); }
+.timeline-card:last-child { border-bottom: none; }
+.timeline-card--threat { background: rgba(239,68,68,0.05); animation: pulse-danger 2s ease-in-out infinite; }
+
+/* Left accent bar */
+.timeline-card__bar {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 0 2px 2px 0;
+}
+.timeline-card__bar--orange { background: var(--amazon); }
+.timeline-card__bar--blue   { background: var(--blue); }
+.timeline-card__bar--green  { background: var(--safe); }
+.timeline-card__bar--warn   { background: var(--warning); }
+.timeline-card__bar--danger { background: var(--danger); }
+
+/* Icon wrap */
+.timeline-card__icon-wrap {
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+.timeline-card__icon-wrap--orange { background: var(--amazon-dim); }
+.timeline-card__icon-wrap--blue   { background: var(--blue-dim); }
+.timeline-card__icon-wrap--green  { background: rgba(34,197,94,0.1); }
+.timeline-card__icon-wrap--warn   { background: rgba(245,158,11,0.1); }
+.timeline-card__icon-wrap--danger { background: rgba(239,68,68,0.15); }
+
+.timeline-card__body { flex: 1; min-width: 0; }
+
+.timeline-card__meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.timeline-card__summary {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-top: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.timeline-card__risk {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.mt-1 { margin-top: 4px; }

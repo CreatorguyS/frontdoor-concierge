@@ -1,0 +1,12 @@
+[
+  {
+    "pin": "3363",
+    "recipient": "FedEx Ground",
+    "validMinutes": 30,
+    "expiresAt": "2026-10-23T07:51:14.195Z",
+    "status": "used",
+    "createdAt": "2026-10-23T07:21:14.195Z",
+    "instructions": "PIN 3363 will unlock the porch security compartment for 30 minutes.",
+    "usedAt": "2026-10-23T07:21:14.226Z"
+  }
+]

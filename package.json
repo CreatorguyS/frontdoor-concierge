@@ -1,0 +1,16 @@
+{
+  "name": "frontdoor-concierge",
+  "version": "1.0.0",
+  "description": "FrontDoor Concierge — AI-powered Ring doorbell guardian using Amazon Bedrock",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

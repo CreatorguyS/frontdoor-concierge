@@ -1,0 +1,128 @@
+[
+  {
+    "id": "c1fa1e0b-98c3-4697-804f-e02f74311cda",
+    "timestamp": "2026-10-23T06:33:59.033Z",
+    "type": "doorbell_pressed",
+    "zone": "Front Door",
+    "snapshot": "delivery",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": "Amazon Logistics",
+      "carrierConfidence": 95,
+      "packageSize": "medium",
+      "visitorIntent": "delivery",
+      "riskScore": 1,
+      "confidence": 91,
+      "greetingInstruction": "Please leave the package by the door. Thank you!",
+      "alertSummary": "Amazon delivery driver detected. Medium-sized parcel. Low risk — safe delivery.",
+      "packageCount": 1,
+      "_source": "bedrock_mock"
+    }
+  },
+  {
+    "id": "49e51418-fef6-47ab-b210-bf6f873f4116",
+    "timestamp": "2026-10-23T06:34:07.875Z",
+    "type": "threat_detected",
+    "zone": "Front Door",
+    "snapshot": "threat",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": null,
+      "carrierConfidence": 0,
+      "packageSize": null,
+      "visitorIntent": "suspicious",
+      "riskScore": 9,
+      "confidence": 89,
+      "greetingInstruction": null,
+      "alertSummary": "⚠️ HIGH RISK: Hooded individual with suspicious behavior detected. Consider contacting authorities.",
+      "packageCount": 0,
+      "_source": "bedrock_mock"
+    }
+  },
+  {
+    "id": "47889df8-422d-4113-af02-521a94736b8c",
+    "timestamp": "2026-10-23T06:35:46.379Z",
+    "type": "doorbell_pressed",
+    "zone": "Front Door",
+    "snapshot": "delivery",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": "Amazon Logistics",
+      "carrierConfidence": 92,
+      "packageSize": "medium",
+      "visitorIntent": "delivery",
+      "riskScore": 1,
+      "confidence": 93,
+      "greetingInstruction": "Please leave the package by the door. Thank you!",
+      "alertSummary": "Amazon delivery driver detected. Medium-sized parcel. Low risk — safe delivery.",
+      "packageCount": 1,
+      "_source": "bedrock_mock"
+    }
+  },
+  {
+    "id": "03c27659-fdcc-4006-8b68-931350837af3",
+    "timestamp": "2026-10-23T06:36:08.042Z",
+    "type": "threat_detected",
+    "zone": "Front Door",
+    "snapshot": "threat",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": null,
+      "carrierConfidence": 0,
+      "packageSize": null,
+      "visitorIntent": "suspicious",
+      "riskScore": 9,
+      "confidence": 87,
+      "greetingInstruction": null,
+      "alertSummary": "⚠️ HIGH RISK: Hooded individual with suspicious behavior detected. Consider contacting authorities.",
+      "packageCount": 0,
+      "_source": "bedrock_mock"
+    }
+  },
+  {
+    "id": "f83a1cb0-69d9-46ba-a533-9c47db77ab09",
+    "timestamp": "2026-10-23T07:13:24.014Z",
+    "type": "threat_detected",
+    "zone": "Front Door",
+    "snapshot": "threat",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": null,
+      "carrierConfidence": 0,
+      "packageSize": null,
+      "visitorIntent": "suspicious",
+      "riskScore": 9,
+      "confidence": 87,
+      "greetingInstruction": null,
+      "alertSummary": "⚠️ HIGH RISK: Hooded individual with suspicious behavior detected. Consider contacting authorities.",
+      "packageCount": 0,
+      "_source": "bedrock_mock"
+    }
+  },
+  {
+    "id": "105d89fe-d6f5-4859-a6c7-98dbfd9e7cb9",
+    "timestamp": "2026-10-23T16:21:35.375Z",
+    "type": "doorbell_pressed",
+    "zone": "Front Door",
+    "snapshot": "delivery",
+    "source": "manual_trigger",
+    "status": "analyzed",
+    "aiAnalysis": {
+      "carrierName": "Amazon Logistics",
+      "carrierConfidence": 94,
+      "packageSize": "medium",
+      "visitorIntent": "delivery",
+      "riskScore": 1,
+      "confidence": 91,
+      "greetingInstruction": "Please leave the package by the door. Thank you!",
+      "alertSummary": "Amazon delivery driver detected. Medium-sized parcel. Low risk — safe delivery.",
+      "packageCount": 1,
+      "_source": "bedrock_mock"
+    }
+  }
+]
