@@ -11,6 +11,12 @@
 
 ---
 
+## 🎥 Live Demonstration (Full System Walkthrough)
+
+![FrontDoor Concierge Live Demo](demo.webp)
+
+---
+
 ## 🌟 Hackathon Tracks & Multi-Category Eligibility
 
 | Hackathon Track / Prize | Implementation Details & Qualification |
